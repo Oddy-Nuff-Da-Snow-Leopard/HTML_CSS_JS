@@ -1,0 +1,73 @@
+.rect1
+{
+    fill: rgba(255, 0, 0, 0.596);
+    stroke-width: 3px;
+    stroke: black;
+    stroke-linecap: square;
+}
+
+.circle1
+{
+    fill: rgba(255, 0, 200, 0.596);
+    stroke-width: 2px;
+    stroke: rgb(14, 10, 78);
+}
+
+.rect2
+{
+    fill: red;
+    stroke-width: 2.5px;
+    stroke: black;
+}
+
+.circle2
+{
+    fill: rgba(255, 0, 200, 0.596);
+    stroke: rgb(112, 103, 238);
+}
+
+.rect3
+{
+    fill: rgb(95, 163, 172);
+    stroke-width: 2px;
+    stroke: black;
+}
+
+.circle3
+{
+    fill: rgba(212, 145, 198, 0.596);
+    stroke: rgba(30, 20, 175, 0.623);
+    stroke-width: 3px;
+}
+
+.task1
+{
+    border: 2px dashed rgba(0, 0, 0, 0.281);
+    display: block;
+    padding: 5px 0px 1px 5px;
+    margin-bottom: 15px;
+}
+
+svg
+{
+    border: 3px solid rgba(116, 76, 76, 0.075);
+    margin-left: 4px;
+}
+
+.task2
+{
+    width: 947px;
+    border: 2px dashed rgba(0, 0, 0, 0.281);
+    display: block;
+    padding: 5px 0px 1px 5px;
+    margin-bottom: 15px;
+}
+
+.task3
+{
+    width: 633px;
+    border: 2px dashed rgba(0, 0, 0, 0.281);
+    display: block;
+    padding: 5px 0px 1px 5px;
+    margin-bottom: 15px;
+}

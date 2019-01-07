@@ -1,0 +1,31 @@
+<html>
+<head>
+    <title>Graphics</title>
+    <meta charset="utf-8" />
+    <link href = "Exercises.css" rel = "stylesheet" />
+</head>
+<script src = "Exercise4-5.js"></script>
+<body>
+    <form>
+        <fieldset>
+        <label>Выберете, какой график необходимо построить:</label><br/>
+        <label><input type = 'radio' name = 's' value = '1' /> y = x<sup>2</sup></label><br/>
+        <label><input type = 'radio' name = 's' value = '2' /> y = x<sup>3</sup></label><br/>
+        <label><input type = 'radio' name = 's' value = '3' /> y = sin(x)</label><br/>
+        <label><input type = 'radio' name = 's' value = '4' /> y = cos(x)</label><br/><br/>
+        <label>Выберете цвет графика </label>
+            <select name = "choice">
+                <option value = '1'>Черный</option>
+                <option value = '2'>Красный</option>
+                <option value = '3'>Синий</option>
+                <option value = '4'>Зеленый</option>
+                <option value = '5'>Фиолетовый</option>
+                <option value = '6'>Голубой</option>
+                <option value = '7'>Оранжевый</option>
+            </select>
+           <br/><br/><input id = "button" type = "button" value = "Построить график" onclick = "build()">
+        </fieldset>
+    </form>
+    <p></p>
+</body>
+</html>

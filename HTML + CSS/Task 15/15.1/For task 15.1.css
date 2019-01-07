@@ -1,0 +1,65 @@
+.cats-in-box
+{
+	border:2px solid #D3D3D3;
+	border-radius:3px;
+	width:480px;
+	height:190px;
+	padding-left:30px;
+	padding-right:30px;
+	margin-top:45px;
+	font-family:Monotype Corsiva;
+	font-size:25px;
+	box-shadow:0 0 20px 1px #D3D3D3;
+}
+
+.cat-snezhok
+{
+	float:right;
+}
+
+.cat-keksik
+{
+	float:left;
+}
+
+p
+{
+	margin-top:2px;
+}
+
+img
+{
+	margin-top:-17px;
+	height:80px;
+	width:80px;
+}
+
+.box
+{
+	height:130px;
+	width:130px;
+	border:1px solid #FFFFFF;
+	border-radius:10px;
+	display:block;
+	margin-top:30px;
+}
+	
+.cat-keksik
+{
+    background-color: #e74c3c; /* Красный */
+}
+
+.cat-snezhok \
+{
+    background-color: #2ecc71; /* Зеленый */
+}
+
+.box
+{
+    background-color: #bdc3c7; /* Серый */
+}
+
+.cat-rudolf 
+{
+    background-color: #3498db; /* Синий */
+}

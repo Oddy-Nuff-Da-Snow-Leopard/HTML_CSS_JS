@@ -1,0 +1,30 @@
+table {
+    font-size: 20px;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    margin: 50px auto;
+    text-align: center;
+    border-spacing: 5px;
+    background: rgb(177, 173, 161);
+    color: #656665;
+    border: 12px solid rgb(177, 173, 161);
+    border-radius: 20px;
+}
+
+td {
+    background: #F5D7BF;
+    padding: 7px;
+}
+
+caption{
+    font-size: 28px;
+}
+
+.badMark
+{
+    background: rgba(209, 25, 25, 0.5);
+}
+
+.goodMark
+{
+    background: rgba(103, 139, 103,0.25);
+}

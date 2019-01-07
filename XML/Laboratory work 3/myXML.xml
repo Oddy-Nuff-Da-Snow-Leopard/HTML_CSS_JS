@@ -1,0 +1,34 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<?xml-stylesheet type = "text/xsl" href = "myXSL.xsl"?>
+
+<speciality>
+
+    <university>
+        <title>Барановичский государственный университет</title>
+        <passingScore>361</passingScore>
+        <recruitmentPlan>50</recruitmentPlan>
+        <city>Барановичи</city>
+    </university>
+
+    <university>
+        <title>Белорусский государственный университет информатики и радиоэлектроники</title>
+        <passingScore>370</passingScore>
+        <recruitmentPlan>24</recruitmentPlan>
+        <city>Минск</city>
+    </university>
+
+    <university>
+        <title>Витебский государственный технологический университет</title>
+        <passingScore>275</passingScore>
+        <recruitmentPlan>27</recruitmentPlan>
+        <city>Витебск</city>
+    </university>
+
+    <university>
+        <title>Гомельский государственный технический университет им. П. О. Сухого</title>
+        <passingScore>251</passingScore>
+        <recruitmentPlan>27</recruitmentPlan>
+        <city>Гомель</city>
+    </university>
+
+</speciality>

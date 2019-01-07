@@ -1,0 +1,39 @@
+<?xml version = "1.0"?>
+
+<xs:schema 
+xmlns:xs = "http://www.w3.org/2001/XMLSchema"
+targetNamespace = "https://www.w3schools.com"
+xmlns = "https://www.w3schools.com"
+elementFormDefault = "qualified">
+
+<xs:element name = "speciality">
+    <xs:element name = "university">
+        <xs:complexType>
+            <xs:sequence>
+            <xs:element name = "title" type = "xs:string"/>
+            <xs:element name = "passingScore" type = "xs:string"/>
+            <xs:element name = "recruitmentPlan" type = "xs:string"/>
+            <xs:element name = "city" type = "xs:string"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:element>
+
+</xs:schema>
+
+<!-- xmlns:xs="http://www.w3.org/2001/XMLSchema"
+указывает, что элементы и типы данных, используемые в схеме, происходят из пространства имен «http://www.w3.org/2001/XMLSchema».
+Он также указывает, что элементы и типы данных, которые поступают из пространства имен «http://www.w3.org/2001/XMLSchema», должны иметь префикс xs: 
+-->
+
+<!-- targetNamespace="https://www.w3schools.com"
+указывает, что элементы, определенные этой схемой, поступают из пространства имен https://www.w3schools.com.
+ -->
+
+<!-- xmlns="https://www.w3schools.com"
+указывает, что пространство имен по умолчанию - «https://www.w3schools.com». 
+-->
+
+<!-- elementFormDefault="qualified">
+указывает, что любые элементы, используемые документом экземпляра XML, которые были объявлены в этой схеме, должны иметь пространство имен.
+-->

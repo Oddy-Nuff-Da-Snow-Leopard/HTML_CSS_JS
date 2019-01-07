@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<list>
+    <student>
+		<SN>Развадовская Евгения</SN>
+        <birthDate>06.04.1998</birthDate>
+        <points>296</points>
+        <averageScore>8</averageScore>
+    </student>
+
+    <student>
+		<SN>Матвеенко Леонид</SN>
+        <birthDate>15.08.2000</birthDate>
+        <points>294</points>
+        <averageScore>5.6</averageScore>
+    </student>
+
+</list>

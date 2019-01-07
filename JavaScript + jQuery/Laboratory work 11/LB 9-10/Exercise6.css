@@ -1,0 +1,23 @@
+.menu-item
+{
+    width: 135px;
+    text-align: center;
+    padding: 2px;
+    border: 2px solid rgb(211, 208, 67);
+    display: inline-block;
+    cursor: pointer;
+    margin-left: 4px;
+    background: whitesmoke;
+    font-size: 18px;
+}
+
+.menu-item .submenu
+{
+    margin-top: 4px;
+    height: 40px;
+    width: 135px;
+    background: rgb(79, 151, 115);
+    display: none;
+    position: absolute;
+    cursor: pointer;
+}

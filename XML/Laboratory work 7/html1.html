@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <title>SMIL</title>
+        <meta charset = "utf-8"/>
+        <link rel="stylesheet" href="myStyle.css"/>
+    </head>
+    <body>
+        <div class="task1">
+            <svg>
+                <rect class="rect1" x="20" y="35" width="70" height="70">
+                    <animate begin="mousedown" attributeName="x" to="220" dur="2s"/>
+                </rect>
+            </svg>
+
+            <svg>
+                <circle class="circle1" cx="150" cy="75" r="30">
+                    <animate begin="mousedown" attributeName="r" to="50" dur="3s"/>
+                </circle>
+            </svg>
+            
+            <svg>
+                <rect class="rect2" x="20" y="32.5" width="80" height="80" rx="15">
+                    <animate begin="mousedown" attributeName="x" to="200" dur="4s"/>
+                    <animate begin="mousedown" attributeName="fill" values="red;orange;yellow;green;skyblue;purple" dur="4s"/>
+                </rect>
+            </svg>
+
+            <svg>
+                <circle class="circle2" cx="150" cy="75" r="50" stroke-width="10">
+                    <animate begin="mousedown" attributeName="stroke-width" to="3" dur="2s"/>
+                </circle>
+            </svg>
+            
+            <svg>
+                <text x="25" y="30" transform="scale(3)">Задание 1
+                <animate attributeName="fill" values="orange;green;skyblue;purple" dur="11s" repeatCount="indefinite"/>
+                </text>
+            </svg>
+        </div>
+
+        <div class="task2">
+            <svg>
+                <rect class="rect3" x="20" y="35" width="70" height="70" rx="10">
+                    <animate begin="mousedown" attributeName="x" to="220" dur="3s"/>
+                    <animateTransform begin="mousedown" attributeName="transform" type="rotate" from="0,20,35" to="180,220,70" dur="3s"/>
+                </rect>
+            </svg>
+        
+            <svg>
+                <circle class="circle3" cx="150" cy="75" r="35">
+                    <animate begin="mousedown" attributeName="r" to="50" dur="3s"/>
+                    <animateTransform begin="mousedown" attributeName="transform" type="skewX" to="45" dur="3s"/>
+                </circle>
+            </svg>
+            
+            <svg>
+                <text x="25" y="30" transform="scale(3)">Задание 2
+                <animate attributeName="fill" values="orange;green;skyblue;purple" dur="11s" repeatCount="indefinite"/>
+                </text>
+            </svg>
+        </div>
+    </body>
+</html> 

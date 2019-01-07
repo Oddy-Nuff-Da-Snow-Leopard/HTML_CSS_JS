@@ -1,0 +1,55 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<?xml-stylesheet type = "text/xsl" href = "myXSL.xsl" ?>
+
+<classmates>
+
+    <student>
+    <surname>Бовкунович</surname>
+    <name>Роман</name>
+    <birthDate>16.07.1999</birthDate>
+    <averageScore>5.6</averageScore>
+    </student>
+
+    <student>
+    <surname>Веракса</surname>
+    <name>Татьяна</name>
+    <birthDate>02.11.1999</birthDate>
+    <averageScore>5</averageScore>
+    </student>
+    
+    <student>
+    <surname>Железняк</surname>
+    <name>Владислав</name>
+    <birthDate>27.01.2000</birthDate>
+    <averageScore>4.2</averageScore>
+    </student>
+
+    <student>
+    <surname>Чуприс</surname>
+    <name>Евгений</name>
+    <birthDate>04.02.2000</birthDate>
+    <averageScore>4.8</averageScore>
+    </student>
+
+    <student>
+    <surname>Сакун</surname>
+    <name>Анастасия</name>
+    <birthDate>28.09.1999</birthDate>
+    <averageScore>7.8</averageScore>
+    </student>
+
+    <student>
+    <surname>Матвеенко</surname>
+    <name>Леонид</name>
+    <birthDate>15.08.2000</birthDate>
+    <averageScore>5.6</averageScore>
+    </student>
+
+    <student>
+    <surname>Развадовская</surname>
+    <name>Евгения</name>
+    <birthDate>06.04.1998</birthDate>
+    <averageScore>8</averageScore>
+    </student>
+
+</classmates>

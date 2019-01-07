@@ -1,0 +1,33 @@
+body{
+    padding: 2px 0 0 6px;
+    color: rgb(173, 133, 196);
+}
+
+p span{
+    color: rgb(89, 79, 180);
+    font-size: 17.5px;
+    font-family: 'Trebuchet MS';
+}
+
+p{
+    font-size: 25px;
+    margin-top: -10px;
+    margin-bottom: 15px;
+    font-family: 'Rubic One';
+}
+
+.nonstandart{
+    font-size: 18px;
+}
+
+img{
+    margin: -20px 0 0 17px;
+    width: 150px;
+    height: 150px;
+}
+
+.frame{
+    margin-top: 3px;
+    margin-left: 5px;
+    color: rgb(185, 88, 105);
+}

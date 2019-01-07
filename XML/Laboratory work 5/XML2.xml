@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<list>
+    <student>
+		<SN>Чуприс Евгений</SN>
+        <birthDate>04.02.2000</birthDate>
+        <points>270</points>
+        <averageScore>4.8</averageScore>
+    </student>
+    
+    <student>
+		<SN>Сакун Анастасия</SN>
+        <birthDate>28.09.1999</birthDate>
+        <points>300</points>
+        <averageScore>7.8</averageScore>
+    </student>
+
+</list>

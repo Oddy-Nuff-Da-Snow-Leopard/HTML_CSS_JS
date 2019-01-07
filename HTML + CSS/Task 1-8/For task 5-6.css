@@ -1,0 +1,27 @@
+body 
+{
+	font-size:12px;
+	text-align:center;
+}
+
+.block1 
+{
+	font-style:italic;
+	padding:10px;
+	border: 1px solid #1abc9c;
+}
+
+.block2
+{
+	cursor:pointer;
+}
+
+.block2 ul 
+{
+	list-style-type:square;
+	background-color:#3498db;
+}
+
+.block2 li
+{
+	background-color:#e74c3c;

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <title>SMIL</title>
+        <meta charset = "utf-8"/>
+        <style>
+            path 
+            {
+                fill: none;
+                stroke: url(#stripes);
+                stroke-width: 2px;
+                stroke-dashoffset: 100;
+            }
+        </style>
+    </head>
+
+    <body>
+        <svg width="400" height="200" viewBox="-50 0 200 100">
+            <defs>
+                <linearGradient id="stripes" x1="0" y1="0" x2="100%" y2="50%">
+                    <stop stop-color="hsl(45,100%,65%)" offset="0"/>
+                    <stop stop-color="hsl(320,100%,65%)" offset="50%"/>
+                    <stop stop-color="hsl(200,100%,60%)" offset="100%"/>  
+                </linearGradient>
+            </defs>  
+            <path id="camera" d="M29.688 59.375c0 11.218 9.094 20.313 20.313 20.313s20.313-9.094 20.313-20.313-9.094-20.313-20.313-20.313-20.313 9.094-20.313 20.313zM93.75 25h-21.875c-1.563-6.25-3.125-12.5-9.375-12.5h-25c-6.25 0-7.813 6.25-9.375 12.5h-21.875c-3.438 0-6.25 2.813-6.25 6.25v56.25c0 3.438 2.813 6.25 6.25 6.25h87.5c3.438 0 6.25-2.813 6.25-6.25v-56.25c0-3.438-2.813-6.25-6.25-6.25zM50 87.109c-15.317 0-27.734-12.417-27.734-27.734 0-15.317 12.417-27.734 27.734-27.734 15.318 0 27.734 12.417 27.734 27.734 0 15.318-12.417 27.734-27.734 27.734zM93.75 43.75h-12.5v-6.25h12.5v6.25z" 
+            transform="translate(2, 2) scale(.9)"/>
+            <animate attributeName="stroke-dasharray" from="600" to="0" dur="5s" repeatCount="indefinite"/>
+            <animate attributeName="stroke-dashoffset" to="0" dur="5s" repeatCount="indefinite"/>
+            </path>
+        </svg>
+        
+    </body>
+</html> 

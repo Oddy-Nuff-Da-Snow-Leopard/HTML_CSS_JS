@@ -1,0 +1,43 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>15</title>
+        <style>
+        body{
+        font-family: Calibri;
+        font-size: 22px;
+        color: rgba(4, 15, 32, 0.767);
+        }
+        div{
+            background-color: rgba(148, 148, 160, 0.418);
+            margin-top: 10px;
+            padding: 50px
+        }
+        </style>
+    </head>
+    <body>
+
+        <div>
+            <b>Фамилия и имя:</b><span id="SNP"></span><br/>
+            <b>Год рождения:</b><span id="birthDate"></span><br/>
+            <b>Балл ЦТ:</b><span id="points"></span></br>
+            <b>Средний балл за первую сессию:</b><span id="averageScore"></span>
+        </div>
+        
+        <script>
+            if (window.XMLHttpRequest)
+            { // для IE7+, Firefox, Chrome, Opera, Safari
+                xmlhttp = new XMLHttpRequest();
+            }
+
+            var i = prompt("Введите номер xml документа(от 1 до 3)");
+            xmlhttp.open("GET","XML"+ i +".xml",false);
+            xmlhttp.send();
+            xmlDoc = xmlhttp.responseXML;
+            document.getElementById("SNP").innerHTML =" " + xmlDoc.getElementsByTagName("SN")[1].childNodes[0].nodeValue;
+            document.getElementById("birthDate").innerHTML = " " + xmlDoc.getElementsByTagName("birthDate")[1].childNodes[0].nodeValue;
+            document.getElementById("points").innerHTML =" " + xmlDoc.getElementsByTagName("points")[1].childNodes[0].nodeValue;
+            document.getElementById("averageScore").innerHTML =" " + xmlDoc.getElementsByTagName("averageScore")[1].childNodes[0].nodeValue;
+        </script>
+    </body>
+</html>

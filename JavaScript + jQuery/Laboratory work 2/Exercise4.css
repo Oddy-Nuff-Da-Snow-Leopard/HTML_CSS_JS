@@ -1,0 +1,24 @@
+table
+{
+    margin:auto;
+    border: 5px solid rgba(27, 65, 146, 0.623);
+    text-align: center;
+    padding: 3px;
+    color:rgb(155, 60, 179);
+    border-spacing: 3px;
+}
+
+td
+{
+    font-size: 20px;
+    padding:5px;
+    border:2px solid skyblue;
+}
+
+tr.caption td
+{
+    text-align: center;
+    padding: 5px;
+    font-size: 26px;
+    font-family: cursive;
+}

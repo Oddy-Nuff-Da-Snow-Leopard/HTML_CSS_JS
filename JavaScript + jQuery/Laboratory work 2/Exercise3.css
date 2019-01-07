@@ -1,0 +1,23 @@
+table
+{
+    margin: auto;
+    border: 3px solid rgb(0, 140, 255);
+    font-size: 20px;
+    text-align :center;
+    border-spacing: 3px;
+    padding: 1.5px;
+}
+
+td
+{
+    border: 2px solid rgb(168, 100, 148);
+    height: 25px;
+}
+
+tr.caption td
+{
+    font-family: Gill Sans, sans-serif;
+    font-size: 25px;
+    padding: 5px;
+    color: rgb(0, 140, 255);
+}

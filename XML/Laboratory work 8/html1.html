@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <title>SMIL</title>
+        <meta charset = "utf-8"/>
+        <link rel="stylesheet" href="myStyle.css"/>
+    </head>
+    <body>
+        <svg width="350" height="185">
+
+            <text x="50" y="15" class="text1">This text was created using SVG</text>
+            <text x="10" y="40" class="text2">This text<tspan dx="3" dy="5">too</tspan></text>
+            <text x="20" y="70" class="text3" transform="rotate(45, 20, 70)">More text</text>
+            <text x="350" y="185" class="text4" text-anchor="end">AWESOME</text>
+             
+            <defs>
+                <path id="Path" d="M6,150C49.63,93,105.79,36.65,156.2,47.55,207.89,58.74,213,
+                131.91,264,150c40.67,14.43,108.57-6.91,229-145"/>
+            </defs>
+
+            <text x="160">
+                <textPath xlink:href="#Path">
+                    bla-bla-bla-bla-bla-bla-bla-bla-bla
+                </textPath>
+            </text>
+
+        </svg>
+    </body>
+</html> 

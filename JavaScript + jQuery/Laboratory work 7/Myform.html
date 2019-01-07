@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Document</title>
+        <meta charset="UTF-8">
+    </head>
+    <style>
+        form{
+            width: 450px;
+            margin: 0 auto;
+        }
+        textarea{
+            width:200px;
+            height:50px;
+        }
+        .text{
+            width: 200px;
+        }
+        p{
+            margin-bottom: 3px;
+        }
+    </style>
+<body>
+    <form>
+        <fieldset>
+            <legend>Моя форма</legend>
+            <p>Ниже представлено однострочное текстовое поле, в которое пользователь может вводить различную информацию.</p>
+            <input class = " text" type = "text" name = "text" value = "Вы можете вводить сюда текст!" />
+            <p>Вот текстовая область, она позволяет ввести многострочный текст.</p>
+            <textarea name = "textarea" >Напиши здесь!</textarea>
+            <p>А здесь представлено поле для ввода пароля</p>
+            <input type="password"/>
+            <p>Тут вы можете видет флажки, которые позволяют пользователям выбирать несколько пунктов с предварительно заполненной информацией.</p>
+            <input type = "checkbox" name = "checkbox" /><span>Вы можете выбрать меня!</span><br/>
+            <input type = "checkbox" name = "checkbox" /><span>и меня!</span><br/>
+            <input type = "checkbox" name = "checkbox" /><span>или всех сразу!</span><br/>
+            <p>А вот в отличии от флажков, радио-кнопка позволяет выбрать только один пункт с предварительно заполненной информацией.</p>
+            <input type="radio" name = "radio" /><span>Выберите меня!</span><br/>
+            <input type="radio" name = "radio" /><span>или меня!</span><br/>
+            <input type="radio" name = "radio" /><span>или меня, но не всех сразу, делайте выбор с умом!</span><br/>
+            <br/>
+            <p>Кнопка отправления предназначена для отправления на сервер введенных данных</p>
+            <input type="submit" name = "submit" value = "Отправить введённые данные на сервер"/> 
+            <p>Кнопка сброса всех введенных данных</p>
+            <input type="submit" name = "submit" value = "Очистить"/> 
+        </fieldset>
+    </form>
+</body>
+</html>

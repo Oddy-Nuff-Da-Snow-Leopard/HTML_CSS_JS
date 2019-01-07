@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>HTML 5</title>
+        <link rel = "stylesheet" type = "text/css" href = "myStyle.css"/>
+    </head>
+    <body>
+        <header>
+            <h1>Я, <mark>дитя Вселенной</mark>, изучаю HTML 5</h1>
+            <img class = "html5" src = "html.png"/>            
+        </header>
+        <main>
+            <div class = "backbone">
+
+                <div class = "box1">
+                    <p class = "title1">Красивый танец (русский народный)</p>
+                    <video width = "600" height = "400" controls>
+                        <source src = "video.mp4" type = "video/mp4">
+                    </video> 
+
+                    <p class = "title2">Приятная песня</p>
+                    <audio controls loop>
+                        <source src="audio.mp3" type="audio/mpeg">
+                    </audio>
+                </div>
+
+                
+
+                <div class = "box2">
+                    <p class = "title3">Нажмите на кнопку, чтобы узнать свои координаты и местоположение</p>
+                    <input type = "button" value = "Жми сюда!" onclick = "getLocation()"/>
+                    <p class = "coords" id = "position"></p>
+                    <div id = "map"></div>
+                </div>
+
+            <script>
+            function getLocation() {
+                    navigator.geolocation.getCurrentPosition(showPosition);
+            }
+            
+            function showPosition(position) {
+                document.getElementById("position").style = "margin: 15px 0 7px 0;"
+                document.getElementById("position").innerHTML = "Широта: " + position.coords.latitude +
+                "<br/>Долгота: " + position.coords.longitude;
+
+                var position = position.coords.latitude + ',' + position.coords.longitude;
+                var img_url = "https://maps.googleapis.com/maps/api/staticmap?center="
+                + position + "&zoom=14&size=500x375&key=AIzaSyBu-916DdpKAjTmJNIgngS6HL_kDIKU0aU";
+                document.getElementById("map").innerHTML = "<img src='"+img_url+"'>";
+                
+            }
+            </script>
+            
+        </main>
+    </body>
+</html>

@@ -1,0 +1,63 @@
+img
+{
+	height:90px;
+	width:90px;
+	margin-top:-15px;
+}
+
+#floor 
+{
+
+	height:220px;
+	width:400px;
+	border:2px solid #D3D3D3;
+	box-shadow:0 0 20px 1px #D3D3D3;
+	margin-top:80px;
+	border-radius:4px;
+}
+
+.cat-in-box
+{
+	
+	margin-top:45px;
+	display:block;
+	border:2px solid #FFFFFF;
+	border-radius:10px;
+	height:200px;
+	width:140px;
+	height:140px;
+}
+
+p
+{
+	text-decoration:overline;
+	font-family:Monotype Corsiva;
+	margin-top:5px;
+	font-size:24px;
+	color:#FFFFFF;
+}
+
+
+span {
+    background-color: #27ae60; /* Зеленый */
+}
+
+div span {
+    background-color: #2980b9; /* Синий */
+}
+
+#floor .cat-in-box {
+    background-color: #34495e; /* Мокрый асфальт */
+}
+
+.cat-in-box {
+    background-color: #8e44ad; /* Фиолетовый */
+}
+
+#floor span {
+    background-color: #c0392b; /* Красный */
+}
+
+div .cat-in-box {
+    background-color: #e67e22; /* Оранжевый */
+}

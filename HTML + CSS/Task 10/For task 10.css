@@ -1,0 +1,71 @@
+.battle
+{
+	border: 1.5px solid #DCDCDC;
+	box-shadow:0 0 3px 1px #DCDCDC;
+	height:270px;
+	width:450px;
+	padding:20px;
+	border-radius:10px;
+	margin:20px auto;
+	text-align:center;
+	font-family:URW Chancery L, cursive;
+	font-size:22px;
+	color:#FFFFFF;
+}
+h1
+{
+	text-align:center;
+}
+
+p
+{
+	margin-top:3px;
+}
+
+.box
+{
+
+	border: 1px solid #FFFFFF;
+	border-radius:10px;
+	height:270px;
+	width:130px;
+}
+
+.keksik
+{
+	float:left;
+	background:#6495ED;
+}
+
+.rudolf
+{
+	background:#B22222;
+	float:right;
+}
+
+.box img
+{
+	height:100px;
+	margin-top:100px;
+}
+
+.chicken 
+{
+	position:absolute;
+	margin-top:55px;
+	border: 1px solid #FFFFFF;
+	border-radius:50%;
+	background:#FFFFFF;
+	padding:10px;
+}
+
+div.to-rudolf
+{
+	margin-left:347px;
+}
+
+.to-keksik
+{
+	margin-left:28px;
+}
+

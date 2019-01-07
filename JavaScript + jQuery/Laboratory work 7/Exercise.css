@@ -1,0 +1,11 @@
+textarea{
+    width: 110px;
+    height: 50px;
+}
+form{
+    width: 430px;
+    margin: auto;
+}
+.indent{
+    margin-left: 5px;
+}

@@ -1,0 +1,15 @@
+body
+{
+	color:#7f8c8d;
+	font-size:12px;
+}
+
+.selected
+{
+	color:#e74c3c;
+}
+
+p.selected span
+{
+	color:#3498db;
+}

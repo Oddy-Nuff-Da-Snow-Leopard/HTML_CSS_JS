@@ -1,0 +1,13 @@
+ul
+{
+	border: 1px solid #000000;
+	padding:5x;
+	margin:20px;
+}
+
+.second-list li
+{
+	border:inherit;
+	padding:inherit;
+	margin:inherit;
+}

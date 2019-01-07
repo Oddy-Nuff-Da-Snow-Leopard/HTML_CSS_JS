@@ -1,0 +1,16 @@
+p
+{
+	font-size:11px;
+}
+
+.block1
+{
+	color:#1abc9c;
+}
+
+.message
+{
+	color:#95a5a6;
+	border: 1px solid #95a5a6;
+	padding:5px;
+}
